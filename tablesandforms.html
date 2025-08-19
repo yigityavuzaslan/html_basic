@@ -1,0 +1,91 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tables & Forms</title>
+</head>
+<body>
+    <table border=1>
+        <!-- table head -->
+        <thead>
+            <th>name</th>
+            <th>salary </th>
+            <th>department </th>
+            <th>age</th>
+
+        </thead>
+
+        <!-- table row -->
+        <tr>                            
+            <td>james hetfield</td>
+            <td>100</td>
+            <td>Musician</td>
+            <td>60</td>
+        </tr>
+
+        <tr>
+            <td>Lars Ulrich</td>
+            <td></td>
+            <td>Musician</td>
+            <td>66</td>
+        </tr>
+
+    </table>
+
+    <br><br><br>
+
+    <form action="image - Kopya.png"> <!-- submit tusuna basinca image ı acar -->>
+        <label for="Name"> Name:</label>
+        <input type="text" id="name" name="name">
+        <br>
+        <label for="salary" > Salary:</label>
+        <input type="text" id="salary" name="salary">
+        <br>
+        <input type="submit">
+    </form>
+
+    <br><br><br>
+
+    <form action="htmlbasic.html"> <!-- submit tusuna basinca image ı acar -->>
+        <label for="email"> Email:</label>
+        <input type="email" id="email" name="email" placeholder="Enter your email">
+        <br>
+        <label for="passw" > Passw:</label>
+        <input type="password" id="passw" name="passw" placeholder="Enter your password" >
+        <br>
+        <input type="submit" value="Login">
+    </form>
+
+    <br><br><br>
+
+    <form action="divspanhtml.html"> 
+        <p>Star Wars vs. Star Trek</p>
+        <label for="starwars"> Starwars:</label>
+        <input type="radio" id="starwars" name="movie" value="starwars">
+        <br>
+        <label for="startrek" > Startrek:</label>
+        <input type="radio" id="startrek" name="movie" value="startrek">  <!--name url de alınan value yi gosterir  -->
+        <br>                                                                 <!--name ayni olursa şıklardan sadece birini seçtirir  -->   
+        <input type="submit" value="Choose">                                 <!--ama aynı olunca hangi şıkı seçtiğimiz belli olmuyor bu yüzden value koyarız  -->
+    </form>
+
+    
+    <br><br><br>
+
+
+    <form action="HTMLlİST.HTML">
+        <p>Rate your driver!</p>
+        <select name="rating" id="rating">
+            <option>5</option>
+            <option>4</option>
+            <option>3</option>
+            <option>2</option>
+            <option>1</option>
+        </select>
+
+    <br>
+    <input type="submit" value="Choose">
+    
+
+</body>
+</html>
