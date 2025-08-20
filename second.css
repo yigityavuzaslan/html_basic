@@ -1,5 +1,5 @@
 body{
-    font-family:'Times New Roman';
+    font-family: Pacifico;
 }
 
 h1{
@@ -12,4 +12,15 @@ p{
     font-size: 20px;
     /*1em 2em isminde bir buyuklukte kullaniriz*/
     /*200% yaparsak normla boyutun 2 katına çıkar*/
+}
+
+#yigit{
+    border: 7px dotted black;    /*çerçeve koyduk*/ /*solid,dashed,dotted*/
+    padding: 10px;                /*çerçeve genişledi*/
+    padding-top: 50px;            /*üst kısım için buda*/
+    margin: 30px;                 /*margin sağ sol üstten yer açılması için*/
+}
+
+#ahmet{
+    border: 7px solid purple;
 }
