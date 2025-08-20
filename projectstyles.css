@@ -1,0 +1,38 @@
+h2{
+    color: brown;
+    background-color: rgb(35, 49, 50);
+}
+
+h3{
+    color: purple;
+}
+
+p{
+    color: chocolate;
+    background-color: darkgreen;
+}
+
+.firstdiv{
+    background-color: chartreuse;
+}
+
+#myparagraf{
+    color: black;
+    background-color: azure;
+}
+
+div{
+    background-color: black;
+}
+
+span{
+    background-color: royalblue;
+}
+
+h1{
+    color: white;
+}
+
+h4{
+    color: white;
+}
