@@ -9,7 +9,7 @@ h3{
 
 p{
     color: chocolate;
-    background-color: darkgreen;
+    
 }
 
 .firstdiv{
@@ -35,4 +35,12 @@ h1{
 
 h4{
     color: white;
+}
+
+#secondparagraf{
+    color: aliceblue;
+}
+
+.seconddiv{
+    background-color: crimson;
 }

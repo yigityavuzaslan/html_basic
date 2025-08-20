@@ -1,0 +1,15 @@
+body{
+    font-family:'Times New Roman';
+}
+
+h1{
+    font-family: 'Franklin Gothic Medium' ;
+    text-align: center;
+}
+
+p{
+    text-align: center;
+    font-size: 20px;
+    /*1em 2em isminde bir buyuklukte kullaniriz*/
+    /*200% yaparsak normla boyutun 2 katına çıkar*/
+}
