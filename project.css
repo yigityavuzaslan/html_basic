@@ -1,0 +1,11 @@
+.btn-success{
+    background-color: aqua;
+}
+
+.carousel{
+    width: 200px;
+}
+
+.mydiv{
+    margin: 50px;  /*margin yanlardan bosluk bırakmak icin */
+}
